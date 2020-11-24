@@ -29,3 +29,6 @@ Write something on your whatsapp and wait the response
 
 <img src="chatbot.gif">
 
+## Observation
+
+Always watching how much you can spend on Twilio, you pay for all messages sended, but, in Trial you can use the Trial Balance.
