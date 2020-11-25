@@ -8,13 +8,6 @@
 4. Start the `virtualAmbient.py` using python3 to start the Listening for Whatsapp Requests
 5. Install [ngrok](https://ngrok.com/) on your computer, where he will create a HTTP URL temporary to test your Bot
 
-## Criation
-
-The Vitual Ambient is a Flask project, where it uses the Twilio API to wait for a message on the URL it will be created using ngrok.
-
-
-
-
 ## Start
 
 Start ngrok on terminal inside **Virtual-Ambient/** Directory: 

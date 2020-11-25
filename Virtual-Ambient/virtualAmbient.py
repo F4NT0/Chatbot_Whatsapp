@@ -34,7 +34,7 @@ def bot():
     if "email" in incoming_message:
         text = incoming_message.split(":")
         email = text[1]
-        f.write("E-mail-" + email)
+        f.write("Email-" + email)
         mensage.body('Seu E-mail é {} Muito Obrigado por entrar em contato'.format(email))
     return str(response)
 
