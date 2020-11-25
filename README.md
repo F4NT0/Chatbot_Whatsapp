@@ -10,23 +10,29 @@
 
 ## Start
 
-Start ngrok on terminal inside **Virtual-Ambient/** Directory: 
+* Start ngrok on terminal inside **Virtual-Ambient/** Directory: 
 
 ```shell
 > ./ngrok http 5000
 ```
 
-Copy the _Forwarding_ URL and insert /bot in the end: Example: ` http://d4a37d74b89d.ngrok.io/bot`
+* Copy the _Forwarding_ URL and insert /bot in the end: Example: ` http://d4a37d74b89d.ngrok.io/bot`
 
-Insert this URL on the configuration of POST Link on twilio: [https://www.twilio.com/console/sms/whatsapp/sandbox](https://www.twilio.com/console/sms/whatsapp/sandbox)
+* Insert this URL on the configuration of POST Link on twilio: [https://www.twilio.com/console/sms/whatsapp/sandbox](https://www.twilio.com/console/sms/whatsapp/sandbox)
  
-On the other Terminal, start the `python3 virtualAmbient.py`
+* On the other Terminal, start the `python3 virtualAmbient.py`
 
-Write something on your whatsapp and wait the response
+* Write something on your whatsapp and wait the response
 
+* After the messages, it will save the informations on the file **info.txt**
+
+* Open other Terminal on the directory **Server** and Start the program `insertdata.py`, it saves the tags with the informations on the file **index.html**
+
+* Start the Server using the program `infoserver.py` where it reads the **index.html** and showing the infos on the Link: http://loclahost:8080
+ 
 ## Example Running
 
-<img src="chatbot.gif">
+Youtube video running the project: [Chatbot de Whatsapp usando python](https://youtu.be/WhzQBnKjbzY)
 
 ## Observation
 
